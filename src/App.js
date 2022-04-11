@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import MainComponent from "./components/MainComponent";
+import Nav from "./components/Nav";
+import data from './components/Data'
+import Meme from "./components/Meme";
 
 function App() {
+  
+  const meme = data.map(item =>{
+    return <Meme
+    key={item.id}
+    img={item.url}
+    
+    
+    
+    />
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <MainComponent/>
+      {/* {meme} */}
     </div>
   );
 }

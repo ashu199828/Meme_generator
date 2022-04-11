@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  display: flex;
+  background-color: rgb(148, 15, 148);
+  color: white;
+}
+.navbar img{
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  margin: 10px 20px;
+}
+.mainComponent{
+  margin: 50px 100px;
+}
+.mainComponent input{
+  padding: 7px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.mainComponent button{
+  height: 50px;
+  width: 750px;
+  margin: 30px 300px;
+  background-color: rgb(148, 15, 148);
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input{
+  display: flex;
+  justify-content: space-around;
+}
+.mainComponent img{
+  margin-left: 450px;
+  height: 400px;
+  width: 400px;
+}
+.meme{
+  position: relative;
+  color: white;
+  
+}
+.topText{
+  position:absolute;
+  top: 1px;
+  left: 550px;
+}
+
+.bottomText{
+  position:absolute;
+  top: 300px;
+  left: 550px;
+}
+
